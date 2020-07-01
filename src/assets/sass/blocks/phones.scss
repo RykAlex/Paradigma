@@ -1,0 +1,132 @@
+.phones {
+	margin-left: 60px;
+}
+
+.phones__block-work {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 2.7vw;
+}
+.mbs {
+	margin-bottom: 0.41vw;
+}
+.phones__block-text {
+	color: #282828;
+	letter-spacing: 0.68px;
+	font-weight: 500;
+}
+.tsm10 {
+	font-size: 0.75vw;
+}
+.phones-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.phones-wrap1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 100%;
+	padding: 0.55vw;
+	width: 2vw;
+	height: 2vw;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	-webkit-box-shadow: 0 0 9px rgba(149, 148, 148, 0.2);
+	box-shadow: 0 0 9px rgba(149, 148, 148, 0.2);
+	background-color: #ffffff;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.mrm {
+	margin-right: 0.5vw;
+}
+.phones__block {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.text-md {
+	font-size: 1vw;
+}
+
+.phones__item {
+	color: #262626;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.fw6 {
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+.fw70016 {
+	font-size: 1vw;
+	font-weight: 700;
+}
+.fw70016 span {
+	font-size: 1vw;
+	font-weight: 300;
+}
+.fw30016 {
+	font-weight: 300;
+	font-size: 1vw;
+}
+.phones__item-wraps span {
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+}
+a,
+button,
+input,
+textarea,
+select {
+	outline: none;
+}
+a {
+	background-color: transparent;
+}
+.phones__block-cir {
+	width: 0.3vw;
+	height: 0.3vw;
+	background-color: #00af47;
+	border-radius: 100%;
+	margin-right: 0.4rem;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}

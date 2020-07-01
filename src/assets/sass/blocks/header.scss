@@ -1,0 +1,150 @@
+.header {
+	padding: 1vw 0;
+	position: relative;
+	z-index: 34;
+}
+.header__inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.items-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #8f8f8f;
+}
+.item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-radius: 100%;
+	padding: 0.55vw;
+	width: 2vw;
+	height: 2vw;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	-webkit-box-shadow: 0 0 9px rgba(149, 148, 148, 0.2);
+	box-shadow: 0 0 9px rgba(149, 148, 148, 0.2);
+	background-color: #ffffff;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.mrm {
+	margin-right: 0.5vw;
+}
+.tsm10 {
+	font-size: 0.61vw;
+}
+.items-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #8f8f8f;
+}
+.header-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+}
+
+.map-header {
+	position: absolute;
+	width: 21vw;
+	height: 17vw;
+	background-color: #fff;
+	-webkit-box-shadow: 3px 0 13px rgba(211, 211, 211, 0.11);
+	box-shadow: 3px 0 13px rgba(211, 211, 211, 0.11);
+	top: 100%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	z-index: 57;
+}
+.map-header iframe {
+	position: relative;
+	z-index: 19;
+}
+.map-header:before {
+	content: "Загрузка карты...";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 1.3vw;
+	color: #379ab1;
+	z-index: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+}
+.small-text {
+	font-size: 0.92vw;
+}
+.fw6 {
+	font-weight: 600;
+}
+.header-item .tg-solid {
+	border-bottom: 1px solid #ff6078;
+	cursor: pointer;
+	color: #ff6078;
+}
+.ldsh {
+	color: #ff6078;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	border: none !important;
+}
+.ldsh:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	border-bottom: 1px dashed #ff6078;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.tsm13 {
+	font-size: 0.85vw;
+}
