@@ -11,14 +11,24 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 	color: #282828;
-	background: url(assets/images/main/bg.jpg) no-repeat center;
 	background-size: cover;
 }
 .container {
-	max-width: 100vw;
+	width: 100%;
+	height: 1127px;
+	max-width: 1920px;
 	margin: 0 auto;
+	background: url("../images/bg.png") center no-repeat;
+	background-size: cover;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
 *,
 *:before,
 *:after {
@@ -26,15 +36,16 @@ body {
 }
 
 /* Bootstrap */
-@import "../../../node_modules/bootstrap/scss/functions";
+/*@import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/transitions";
 @import "../../../node_modules/bootstrap/scss/grid";
-@import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/modal";/*
 
 /* Blocks */
 @import "blocks/header";
+@import "blocks/nav";
 @import "blocks/logo";
 @import "blocks/phones";
 @import "blocks/trigger";
